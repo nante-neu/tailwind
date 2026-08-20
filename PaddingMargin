@@ -14,7 +14,9 @@ r           Right          Right only            pr-4
 (none)    All sides        Top, Bottom,          p-4
                           Left,Right
 
-
+pt-4 = Padding Top only.
+my-4 = Margin Top and Bottom.
+m-4 = Margin everywhere.
 
 The Number Scale
 The numbers at the end (like px-4 or py-3.5) represent a specific size in standard CSS pixels.
