@@ -4,6 +4,14 @@
 
 2. The Direction
 The second letter tells Tailwind exactly where to put that space:
-Letter | Meaning | Axis/Direction | Example
-x        x-axis
-y
+Letter   |   Meaning   |   Axis/Direction   |   Example
+x            x-axis             Left & Right     px-4
+y            y-axis          Top & Bottom        py-4
+t             Top      Top only                  mt-4
+b            Bottom    Bottom only               pb-4
+l            Left      Left only                 ml-4
+r           Right      Right only                pr-4
+(none)    All sides      Top, Bottom,            p-4
+                  
+                  Left,
+                  Right
