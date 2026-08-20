@@ -1,0 +1,9 @@
+1. The Property (Padding vs. Margin)
+  p = Padding: Space inside the element (pushes content away from the edges).
+  m = Margin: Space outside the element (pushes the whole element away from other things).
+
+2. The Direction
+The second letter tells Tailwind exactly where to put that space:
+Letter | Meaning | Axis/Direction | Example
+x        x-axis
+y
