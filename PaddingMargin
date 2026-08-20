@@ -13,6 +13,8 @@ l            Left          Left only             ml-4
 r           Right          Right only            pr-4
 (none)    All sides        Top, Bottom,          p-4
                           Left,Right
+p-4 = Padding on ALL 4 sides (inside the box).
+m-4 = Margin on ALL 4 sides (outside the box).
 
 pt-4 = Padding Top only.
 my-4 = Margin Top and Bottom.
