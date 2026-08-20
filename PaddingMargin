@@ -13,3 +13,34 @@ l            Left          Left only             ml-4
 r           Right          Right only            pr-4
 (none)    All sides        Top, Bottom,          p-4
                           Left,Right
+
+
+
+The Number Scale
+The numbers at the end (like px-4 or py-3.5) represent a specific size in standard CSS pixels.
+Tailwind uses a multiple of 4 pixels for its base scale:
+
+p-1 = 4px
+p-2 = 8px
+p-3 = 12px
+p-4 = 16px
+p-5 = 20px
+p-3.5 = 14px (Tailwind added half-sizes for fine-tuning
+
+So, when you wrote py-3.5 px-5 in your table cell earlier,
+you were telling it to have 14 pixels of padding on the top/bottom,
+and 20 pixels of padding on the left/right!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
