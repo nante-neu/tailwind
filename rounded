@@ -2,3 +2,35 @@ rounded-t-xl: Rounds only the Top.
 rounded-b-xl: Rounds only the Bottom.
 rounded-l-xl: Rounds only the Left.
 rounded-r-xl: Rounds only the Right.
+
+Tailwind Class      Pixels
+rounded-none          0px
+rounded-sm            2px
+rounded               4px
+rounded-md            6px
+rounded-lg            8px
+rounded-xl            12px
+rounded-2xl          16px
+rounded-3xl          24px
+rounded-full      Circle / Pill
+
+
+---===Sides (Two Corners)===---
+
+rounded-t-2xl → Top-left & Top-right
+rounded-b-2xl → Bottom-left & Bottom-right
+rounded-l-2xl → Top-left & Bottom-left
+rounded-r-2xl → Top-right & Bottom-right
+
+---=== Single Corners ===---
+
+rounded-tl-2xl → Top-left only
+rounded-tr-2xl → Top-right only
+rounded-bl-2xl → Bottom-left only
+rounded-br-2xl → Bottom-right only
+Arbitrary Values
+
+If you need an exact size outside the default scale, use square brackets:
+
+rounded-[10px]
+rounded-[50px]
