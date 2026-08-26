@@ -15,6 +15,19 @@ border-x            1px border on left & right    border-left: 1px; border-right
 border-y-0          Removes top & bottom borders  border-top: 0px; border-bottom: 0px;
 
 2. The Responsive Prefix (sm:, lg:, xl:)
+
 Breakpoint Prefix      When it activates                  Device
 (No prefix)            Always active (Mobile First)       Mobile phones
+sm:                    Screens 640px and wider            Large phones / Small tablets
+md:                    Screens 768px and wider            Tablets (iPad portrait)
+lg:                    Screens 1024px and wider           Laptops / iPad landscape
+xl:                    Screens 1280px and wider            Widescreen Desktop Monitors
 
+
+——  border-t: "By default (on mobile), put a 1px border on the Top to separate me from the panel above me."
+——  border-zinc-200: "Make that border light gray."
+——  lg:border-t-0: "Wait! If the screen stretches to Laptop size (lg:), remove that top border (-0), because the panels are no longer stacked vertically."
+——  lg:border-l: "Instead, on Laptop sizes, add a 1px border on the Left to separate me from the panel that is now sitting horizontally next to me."
+
+——  Border Color: border-white, border-zinc-200, border-white/20 (for transparent glass).
+—— Border Style: border-solid (default), border-dashed (great for "Drag and Drop" upload zones), or border-dotted.
