@@ -1,3 +1,4 @@
+1. Border Width & Direction (The Base)
 • No letter: Applies to all 4 sides.
 • t, b, l, r: Top, Bottom, Left, Right.
 • x, y: Horizontal (left/right) or Vertical (top/bottom).
@@ -13,5 +14,7 @@ border-r-4          4px border on the right       border-right-width: 4px;
 border-x            1px border on left & right    border-left: 1px; border-right: 1px;
 border-y-0          Removes top & bottom borders  border-top: 0px; border-bottom: 0px;
 
-
+2. The Responsive Prefix (sm:, lg:, xl:)
+Breakpoint Prefix      When it activates                  Device
+(No prefix)            Always active (Mobile First)       Mobile phones
 
