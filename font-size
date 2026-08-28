@@ -1,0 +1,28 @@
+https://tailwindcss.com/docs/font-size
+
+
+Class
+text-xs
+text-sm
+text-base
+text-lg
+text-xl
+text-2xl
+text-3xl
+text-4xl
+text-5xl
+text-6xl
+text-7xl
+text-8xl
+text-9xl
+
+text-(length:<custom-property>)
+font-size: var(<custom-property>);
+text-sm/6
+
+text-[<value>]
+font-size: <value>;
+text-[14px]
+
+
+text-(length:--my-text-size)
