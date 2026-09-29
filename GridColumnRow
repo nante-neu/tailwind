@@ -11,11 +11,33 @@ col-span-1                    Occupies 1 slot (~33% width of the row)
 col-span-2                    Occupies 2 slots (~66% width of the row)
 col-span-3 or col-span-full	  Occupies all 3 slots (100% width of the row)
 
+{/* Sample 1 */}
+<div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5 p-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 text-white">
+  <div className="col-span-1 bg-stone-800/50 p-3 rounded-lg">
+    <span className="text-xs text-neutral-950 block">Registry No.</span>
+    <span className="">REG-2026-001</span>
+  </div>
+</div>
 
+{/* Sample 2 */}
+<div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5 p-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 text-white">
+  <div className="col-span-1 bg-stone-800/50 p-3 rounded-lg">
+    <span className="text-xs text-neutral-950 block">Registry No.</span>
+    <span className="">REG-2026-001</span>
+  </div>
 
+  <div className="col-span-2 sm:row-span-2 bg-stone-800/50 p-3 rounded-lg">
+    <span className="text-xs text-zinc-400 block">Description</span>
+    <p className="text-xs text-zinc-300">Terracotta storage jar dating back to 500 BCE.</p>
+  </div>
 
+  <div className="col-span-1 bg-stone-800/50 p-3 rounded-lg">
+    <span className="text-xs text-neutral-950 block">Accession No.</span>
+    <span className="">2026.4.12</span>
+  </div>
+</div>
 
-
+{/* Sample 3 */}
 
 
 
