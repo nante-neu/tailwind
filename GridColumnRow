@@ -1,0 +1,25 @@
+grid grid-cols-3
+
+When you define grid grid-cols-3, you are creating 3 equal column tracks per row.
+  
+  ‣ Each row has a total capacity of 3 column slots.
+  ‣ Every child element can choose how many slots it occupies using col-span-*.
+  ‣ When the total slots in a row reach 3, the next element automatically wraps down to the next row.
+
+Tailwind Class                Meaning in grid-cols-3
+col-span-1                    Occupies 1 slot (~33% width of the row)
+col-span-2                    Occupies 2 slots (~66% width of the row)
+col-span-3 or col-span-full	  Occupies all 3 slots (100% width of the row)
+
+
+
+
+
+
+
+
+
+
+.
+.
+.
